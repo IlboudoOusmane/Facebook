@@ -1,0 +1,40 @@
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin: 10px 0;
+}
+
+.sidebar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.sidebar i {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #4A90E2; 
+    transition: none;
+}
+
+.sidebar span {
+    font-weight: 600;
+    color: #000;
+    font-size: 15px; 
+}
+
+.sidebar:hover {
+    background-color: #f0f2f5; 
+}
+
+.sidebar-avatar {
+    width: 30px; 
+    height: 30px;
+    margin-right: 15px; 
+}
+
